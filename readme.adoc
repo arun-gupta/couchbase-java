@@ -1,0 +1,6 @@
+= Couchbase and Java
+
+This workspace will show how to use a simple Java application with Couchbase.
+
+. Start Couchbase: `docker run -d -p 8091-8093:8091-8093 -p 11210:11210 arungupta/oreilly-couchbase`
+. Run the app: `mvn package exec:java`
